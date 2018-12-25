@@ -33,3 +33,37 @@
   path.extname('/foo/bar/baz/index'); // ''
   path.extname('/foo/bar/baz/'); // ''
 ```
+
+### format
+> path.format(pathObj) 返回一个路径字符串
+> * 如果指定了 pathObj.dir, 则忽略 pathObj.root
+> * 如果指定了 pathObj.base, 则忽略 pathObj.ext 和 pathObj.name
+
+```
+  // 如果指定了 dir, 则忽略 root
+  path.format({
+      root: '/foo/bar/',
+      dir: '/foo/baz/',
+      base: 'index.html'
+  });
+  // /foo/baz/index.html
+  
+  // 如果指定了 base, 则忽略 ext 和 name
+  path.format({
+      root: '/foo/bar/',
+      dir: '/foo/baz/',
+      base: 'index.html',
+      ext: '.text',
+      name: 'file'
+  });
+  // /foo/baz/index.html
+```
+
+### isAbsolute
+> path.isAbsolute(path) 返回 path 是否是绝对路径
+
+```
+  path.isAbsolute('foo/bar/baz/'); // false
+  path.isAbsolute('/foo/bar/baz/'); // true
+  path.isAbsolute('./foo/bar/baz/'); // false
+```
