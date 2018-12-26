@@ -40,13 +40,21 @@
 > * 如果指定了 pathObj.base, 则忽略 pathObj.ext 和 pathObj.name
 
 ```
+  // 如果不指定 dir 和 base
+  path.format({
+      root: '/foo/bar/',
+      ext: '.text',
+      name: 'file'
+  });
+  // /foo/bar/file.text
+  
   // 如果指定了 dir, 则忽略 root
   path.format({
       root: '/foo/bar/',
       dir: '/foo/baz/',
       base: 'index.html'
   });
-  // /foo/baz/index.html
+  // /foo/baz/\index.html
   
   // 如果指定了 base, 则忽略 ext 和 name
   path.format({
@@ -56,7 +64,7 @@
       ext: '.text',
       name: 'file'
   });
-  // /foo/baz/index.html
+  // /foo/baz/\index.html
 ```
 
 ### isAbsolute
