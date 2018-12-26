@@ -1,4 +1,8 @@
 
+```
+  var path = require('path');
+```
+
 ### basename
 > path.basename(path, ext) 返回 path 中的最后一部分
 
