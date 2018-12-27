@@ -83,9 +83,9 @@ element 是 block 下面的子元素（使用两个下划线连接）。
   .tit--h3 { ... }  // 三级标题
   
   // 全局主题样式
-  .global__theme--white { ... }
-  .global__theme--black { ... }
-  .global__theme--christ { ... }
+  .global-theme--white { ... }
+  .global-theme--black { ... }
+  .global-theme--christ { ... }
   
   // ...
 ```
