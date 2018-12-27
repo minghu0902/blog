@@ -27,8 +27,8 @@ element 是 block 下面的子元素（使用两个下划线连接）。
 ```html
   <header class="header">
     <nav class="nav">
-      <a class="active" href="/">首页</a>
-      <a href="/product.html">产品中心</a>
+      <a class="active" href="/" title="首页">首页</a>
+      <a href="/product.html" title="产品中心">产品中心</a>
     </nav>
   </header>
 ```
@@ -45,8 +45,8 @@ element 是 block 下面的子元素（使用两个下划线连接）。
 ```html
   <header class="header">
     <nav class="header__nav">
-      <a class="header__nav__a--active" href="/">首页</a>
-      <a href="/product.html">产品中心</a>
+      <a class="header__nav__a--active" href="/" title="首页">首页</a>
+      <a href="/product.html" title="产品中心">产品中心</a>
     </nav>
   </header>
 ```
