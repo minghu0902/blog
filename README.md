@@ -1,16 +1,16 @@
-## javascript深入系列
+## javascript基础系列
 
-* [javascript之变量提升与函数提升](https://github.com/minghu0902/blog/blob/master/articles/javascript/javascript%E4%B9%8B%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87%E4%B8%8E%E5%87%BD%E6%95%B0%E6%8F%90%E5%8D%87.md)
+* [javascript基础之变量提升与函数提升](https://github.com/minghu0902/blog/blob/master/articles/javascript/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E4%B9%8B%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87%E4%B8%8E%E5%87%BD%E6%95%B0%E6%8F%90%E5%8D%87.md)
 
-* [javascript深入系列之作用域与作用域链](https://github.com/minghu0902/blog/blob/master/articles/javascript/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F%E4%B8%8E%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE.md)
+* [javascript基础之作用域与作用域链](https://github.com/minghu0902/blog/blob/master/articles/javascript/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F%E4%B8%8E%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE.md)
 
-* [javascript深入系列之闭包](https://github.com/minghu0902/blog/blob/master/articles/javascript/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97%E4%B9%8B%E9%97%AD%E5%8C%85.md)
+* [javascript基础之闭包](https://github.com/minghu0902/blog/blob/master/articles/javascript/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E4%B9%8B%E9%97%AD%E5%8C%85.md)
 
-* [javascript之原型与原型链](https://github.com/minghu0902/blog/blob/master/articles/javascript/javascript%E4%B9%8B%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE.md)
+* [javascript基础之原型与原型链](https://github.com/minghu0902/blog/blob/master/articles/javascript/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E4%B9%8B%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE.md)
 
-* [javascript之继承](https://github.com/minghu0902/blog/blob/master/articles/javascript/javascript%E4%B9%8B%E7%BB%A7%E6%89%BF.md)
+* [javascript基础之继承](https://github.com/minghu0902/blog/blob/master/articles/javascript/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E4%B9%8B%E7%BB%A7%E6%89%BF.md)
 
-* [javascript深入系列之事件循环机制](https://github.com/minghu0902/blog/blob/master/articles/javascript/%E6%B7%B1%E5%85%A5%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6.md)
+* [javascript基础之事件循环机制](https://github.com/minghu0902/blog/blob/master/articles/javascript/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E4%B9%8B%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6.md)
 
 ## nodejs基础系列
 
