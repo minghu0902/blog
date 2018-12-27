@@ -60,19 +60,21 @@ element 是 block 下面的子元素（使用两个下划线连接）。
 ```
   // 公共按钮样式
   .btn { ... } 
+  .btn--lg { ... }
+  .btn--sm { ... }
+  .btn--xs { ... }
   .btn--round { ... }
   .btn--disabled { ... }
   .btn--primary { ... }
-  .btn--primary--lg { ... }
-  .btn--primary--sm { ... }
-  .btn--primary--xs { ... }
+  .btn--success { ... }
+  .btn--warning { ... }
   
   // 如果某个模块下的按钮和上面的通用按钮样式不一样，则可以继续增加样式定义
   // 分享按钮样式
-  .share__btn { ... }
-  .share__btn--success--lg { ... }
-  .share__btn--success--sm { ... }
-  .share__btn--success--xs { ... }
+  .share-btn { ... }
+  .share-btn--lg { ... }
+  .share-btn--sm { ... }
+  .share-btn--xs { ... }
   
   // 公共标题样式
   .tit { ... }
