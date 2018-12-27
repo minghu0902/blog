@@ -19,3 +19,5 @@
 * [node基础模块之querystring](https://github.com/minghu0902/blog/blob/master/articles/nodejs/node%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97%E4%B9%8Bquerystring.md)
 
 * [node基础模块之url](https://github.com/minghu0902/blog/blob/master/articles/nodejs/node%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97%E4%B9%8Burl.md)
+
+* [node基础模块之events](https://github.com/minghu0902/blog/blob/master/articles/nodejs/node%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97%E4%B9%8Bevents.md)
