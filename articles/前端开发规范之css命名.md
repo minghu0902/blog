@@ -60,11 +60,12 @@ element 是 block 下面的子元素（使用两个下划线连接）。
 ```
   // 公共按钮样式
   .btn { ... } 
+  .btn--round { ... }
+  .btn--disabled { ... }
   .btn--primary { ... }
   .btn--primary--lg { ... }
   .btn--primary--sm { ... }
   .btn--primary--xs { ... }
-  .btn--disabled { ... }
   
   // 如果某个模块下的按钮和上面的通用按钮样式不一样，则可以继续增加样式定义
   // 分享按钮样式
