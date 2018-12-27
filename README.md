@@ -21,3 +21,6 @@
 * [node基础模块之url](https://github.com/minghu0902/blog/blob/master/articles/nodejs/node%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97%E4%B9%8Burl.md)
 
 * [node基础模块之events](https://github.com/minghu0902/blog/blob/master/articles/nodejs/node%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97%E4%B9%8Bevents.md)
+
+## 前端开发规范
+* [高效css命名](https://github.com/minghu0902/blog/blob/master/articles/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83%E4%B9%8Bcss%E5%91%BD%E5%90%8D.md)
