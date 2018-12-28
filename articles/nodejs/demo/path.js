@@ -37,10 +37,33 @@ path.format({
     name: 'file'
 }); // /foo/bar/file.text
 
-var p = path.format({
+path.format({
     root: '/foo/bar/',
     dir: '/foo/baz/',
     base: 'index.html'
 });
 
-console.log(__dirname);
+path.join('/foo', '/bar'); // /foo/bar
+path.join('/foo', '../', '/bar'); // /bar
+
+path.normalize('/foo/bar/baz/..'); // /foo/bar
+
+path.parse('./foo/bar/baz/index.html'); 
+// { root: '',
+//   dir: './foo/bar/baz',
+//   base: 'index.html',
+//   ext: '.html',
+//   name: 'index' }
+
+path.parse('/foo/bar/baz/index.html');
+// { root: '/',
+//   dir: '/foo/bar/baz',
+//   base: 'index.html',
+//   ext: '.html',
+//   name: 'index' }
+
+path.relative('/foo/bar/index.html', '/foo/baz/index.html'); // ..\..\baz\index.html
+
+path.resolve('../')
+
+console.log(path.sep)
