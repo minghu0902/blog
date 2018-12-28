@@ -71,6 +71,25 @@
   // /foo/baz/\index.html
 ```
 
+### parse
+> path.parse(path)
+> 解析路径字符串为对象，与 path.format 相反
+```
+  path.parse('./foo/bar/baz/index.html'); 
+  // { root: '',
+  //   dir: './foo/bar/baz',
+  //   base: 'index.html',
+  //   ext: '.html',
+  //   name: 'index' }
+
+  path.parse('/foo/bar/baz/index.html');
+  // { root: '/',
+  //   dir: '/foo/bar/baz',
+  //   base: 'index.html',
+  //   ext: '.html',
+  //   name: 'index' }
+```
+
 ### isAbsolute
 > path.isAbsolute(path) 返回 path 是否是绝对路径
 
@@ -78,4 +97,43 @@
   path.isAbsolute('foo/bar/baz/'); // false
   path.isAbsolute('/foo/bar/baz/'); // true
   path.isAbsolute('./foo/bar/baz/'); // false
+```
+
+### join
+> path.join(...paths)
+> ...paths: 路径片段
+> 返回使用平台特定的分隔符把所有 path 片段连接到一起，并规范化生成的路径
+```
+  path.join('/foo', '/bar'); // /foo/bar
+  path.join('/foo', '../', '/bar'); // /bar
+```
+### resolve
+> path.resolve(...paths)
+> ...paths: 路径片段
+> 返回由路径片段组成的绝对路径
+```
+  path.resolve('/foo/bar', './baz'); // /foo/bar/baz
+  path.resolve('/foo/bar', '/tmp/file/'); // /tmp/file
+  path.resolve('/foo/bar', '../tmp/file/'); // /foo/tmp/file
+```
+
+### normalize
+> path.normalize(path)
+> 规范化路径，会处理path中带有的 '.' 或 '..'
+```
+  path.normalize('/foo/bar/baz/..'); // /foo/bar
+```
+### relative
+> path.relative(from, to)
+> 返回从 from 到 to 的相对路径
+```
+  path.relative('/foo/bar/index.html', '/foo/baz/index.html'); // ../../baz/index.html
+```
+### sep
+> path.sep
+> 返回平台特定的路径片段分割符
+> Windows 上是 \
+> POSIX 上是 /
+```
+  console.log(path.sep)
 ```
