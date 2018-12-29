@@ -7,7 +7,7 @@
   // 推荐
   <div>这是一个块级元素</div>
 ```
-* 使用4个空格作为缩进，不能混用空格和缩进，在 jade 中混用会出错
+* 使用2个空格作为缩进，不能混用空格和缩进，在 jade 中混用会出错
 ```
   // 不推荐
   <div>
@@ -89,13 +89,13 @@
 ```
 
 * 推荐结构和样式分离，不推荐使用行内式
-```
+```html
   // 不推荐
   <div style="margin-top: 10px;"></div>
 ```
 
 * 布尔属性不需要指明属性的值
-```
+```html
   // 不推荐
   <input type="text" disabled="disabled">
   
@@ -103,7 +103,7 @@
   <input type="text" disabled>
 ```
 * 使用 data-* 创建自定义属性
-```
+```html
   // 不推荐
   <button type="button" code="1">查看详情</button>
   
@@ -112,7 +112,7 @@
 ```
 
 * 不在自闭合标签的结尾使用 /
-```
+```html
   // 不推荐
   <br/>
   
@@ -121,7 +121,7 @@
 ```
 * type属性
 > 省略样式表与脚本上的 type 属性。鉴于 HTML5 中以上两者默认的 type 值就是 text/css 和 text/javascript，所以 type 属性一般是可以忽略掉的。甚至在老旧版本的浏览器中这么做也是安全可靠的。
-```
+```html
   // 不推荐
   <link rel="stylesheet" href="main.css" type="text/css">
   <script src="main.js" type="text/javascript"></script>
@@ -129,6 +129,16 @@
   // 推荐
   <link rel="stylesheet" href="main.css">
   <script src="main.js"></script>
+```
+
+* 不推荐引入资源所带的协议
+```html
+  // 不推荐
+  <script src="http://cdn.com/example.js"></script>
+  <script src="https://cdn.com/example.js"></script>
+
+  // 推荐
+  <script src="//cdn.com/example.js"></script>
 ```
 
 * 对于重要元素或者特殊功能模块需要添加注释说明
