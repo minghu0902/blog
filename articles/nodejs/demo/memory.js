@@ -35,17 +35,24 @@ function showMem() {
 
 
 // demo2
-function useMem() {
-    const size = 200 * 1024 * 1024;
-    const buffer = new Buffer(size);
-    for (let i = 0; i < size; i++) {
-        buffer[i] = 0;
-    }
-    return buffer;
-}
+// function useMem() {
+//     const size = 200 * 1024 * 1024;
+//     const buffer = new Buffer(size);
+//     for (let i = 0; i < size; i++) {
+//         buffer[i] = 0;
+//     }
+//     return buffer;
+// }
 
-const total = [];
-for (let i = 0; i < 15; i++) {
-    showMem();
-    total.push(useMem());
-}
+// const total = [];
+// for (let i = 0; i < 15; i++) {
+//     showMem();
+//     total.push(useMem());
+// }
+
+// demo3
+// const arr = [];
+// while(true) {
+//     showMem();
+//     arr.push();
+// }
