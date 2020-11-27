@@ -22,7 +22,7 @@
 
 * [node基础模块之events](https://github.com/minghu0902/blog/blob/master/articles/nodejs/node%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97%E4%B9%8Bevents.md)
 
-## 前端开发规范
+## 前端开发
 
 * [css命名](https://github.com/minghu0902/blog/blob/master/articles/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B9%8Bcss%E5%91%BD%E5%90%8D.md)
 
@@ -30,3 +30,5 @@
 
 
 * [h5开发常见问题及解决方案](https://github.com/minghu0902/blog/blob/master/articles/h5%E5%BC%80%E5%8F%91%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md)
+
+* [前端开发常用js库](https://github.com/minghu0902/blog/blob/master/articles/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8js%E5%BA%93%E6%A2%B3%E7%90%86.md)
