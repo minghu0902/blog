@@ -9,3 +9,18 @@
 ### 表单校验
  * [validator.js](https://github.com/validatorjs/validator.js) 轻量级的JavaScript表单验证，字符串验证。没有依赖，支持UMD，~3kb
  * [async-validaor](https://github.com/yiminghe/async-validator) 异步表单校验
+
+### 网络请求
+* [axios](https://github.com/axios/axios) 易用、简洁且高效的http库，支持node和浏览器端，支持Promise，丰富的配置项
+
+
+### 动画库
+* [Animate.css](https://github.com/animate-css/animate.css) 一个通用的css3动画库
+* [Hover.css](https://github.com/IanLunn/Hover) 一组由CSS3驱动的悬停效果，应用于链接、按钮、徽标、SVG、特色图像等
+* [SpinKit](https://github.com/tobiasahlin/SpinKit) 一个酷炫的加载动画CSS集合
+* [Anime.js](https://github.com/juliangarnier/anime) 一个轻量的JavaScript动画库，可对 CSS 属性、 SVG、 DOM 和JavaScript 对象进行动画，~6kb
+* [mo.js](https://github.com/mojs) 一个"简洁、高效"的图形动画库
+* [vivus.js](https://github.com/maxwellito/vivus) 一个轻量级的svg动画绘制库(没有依赖关系)
+* [ScrollReveal](https://github.com/jlmakes/scrollreveal) 一个特定的动画库，用于在元素进入/离开视口时轻松地创建动画。创建十分酷炫的滚动特效，一个轻量级的工具（没有任何依赖）
+* [particles.js](https://github.com/marcbruederlin/particles.js) 一个特定的动画库，用于粒子背景的轻量级、无依赖性和响应性的javascript插件
+* [GreenSockJS](https://github.com/greensock/GSAP) GSAP是一个用于构建高性能动画的JavaScript库，可以在每个主要浏览器中运行。动画CSS, SVG，画布，反应，Vue, WebGL，颜色，字符串，运动路径，通用对象…JavaScript能触及的任何东西!
