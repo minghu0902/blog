@@ -24,3 +24,13 @@
 * [ScrollReveal](https://github.com/jlmakes/scrollreveal) 一个特定的动画库，用于在元素进入/离开视口时轻松地创建动画。创建十分酷炫的滚动特效，一个轻量级的工具（没有任何依赖）
 * [particles.js](https://github.com/marcbruederlin/particles.js) 一个特定的动画库，用于粒子背景的轻量级、无依赖性和响应性的javascript插件
 * [GreenSockJS](https://github.com/greensock/GSAP) GSAP是一个用于构建高性能动画的JavaScript库，可以在每个主要浏览器中运行。动画CSS, SVG，画布，反应，Vue, WebGL，颜色，字符串，运动路径，通用对象…JavaScript能触及的任何东西!
+
+### 图形/图像处理
+* [html2canvas](https://github.com/niklasvh/html2canvas) 使用JavaScript截图
+* [domtoimage ](https://github.com/tsayen/dom-to-image) 它可以将任意DOM节点转换为用JavaScript编写的矢量(SVG)或光栅(PNG或JPEG)图像
+* [Fabric.js](https://github.com/fabricjs/fabric.js) 一个强大而简单的工具HTML5 canvas库
+* [cropperjs](https://github.com/fengyuanchen/cropperjs) 一个强大的图片裁切库 
+
+### 鼠标/键盘相关
+* [KeyboardJS](https://github.com/RobertWHurst/KeyboardJS) 它使开发人员可以轻松设置键绑定和使用组合键来设置复杂的绑定
+* [SortableJS](https://github.com/SortableJS/sortablejs) 功能强大的JavaScript 拖拽库
