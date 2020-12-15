@@ -30,6 +30,8 @@
 * [domtoimage ](https://github.com/tsayen/dom-to-image) 它可以将任意DOM节点转换为用JavaScript编写的矢量(SVG)或光栅(PNG或JPEG)图像
 * [Fabric.js](https://github.com/fabricjs/fabric.js) 一个强大而简单的工具HTML5 canvas库
 * [cropperjs](https://github.com/fengyuanchen/cropperjs) 一个强大的图片裁切库 
+* [Viewer.js](https://github.com/fengyuanchen/viewerjs) 图片预览库
+* [v-viewer](https://github.com/mirari/v-viewer) 基于Viewer.js的vue图片预览组件
 
 ### 鼠标/键盘相关
 * [KeyboardJS](https://github.com/RobertWHurst/KeyboardJS) 它使开发人员可以轻松设置键绑定和使用组合键来设置复杂的绑定
